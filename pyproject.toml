@@ -5,12 +5,12 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ansible-inventory-helper"
+name = "ansible-directory-helper"
 version = "0.1.0-dev"
 authors = [
     {name="Brian St. Hilaire", email="brian.st-hilaire@sanctus-tech.com"}
 ]
-description = "A small helper library Ansible inventories"
+description = "A small helper library to manage local directories for Ansible"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
@@ -28,8 +28,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/saint-hilaire/lampsible"
-Issues = "https://github.com/saint-hilaire/lampsible/issues"
+Homepage = "https://github.com/saint-hilaire/ansible-directory-helper"
+Issues = "https://github.com/saint-hilaire/ansible-directory-helper/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
