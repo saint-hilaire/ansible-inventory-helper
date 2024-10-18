@@ -15,6 +15,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "pyyaml",
+    "ansible-core",
 ]
 classifiers = [
     "Development Status :: 1 - Planning",
